@@ -1,8 +1,9 @@
-image: maven:3-jdk-11
+
 
 stages:
     - build
     - test
+    - deploy
 
 build1:
   stage: build
@@ -11,6 +12,11 @@ build1:
 
 test1:
   stage: test
+  script: mvn verify
+
+deploy1:
+  stage: deploy
   script:
-    - mvn clean test
+    - mvn org.codehaus.cargo:cargo-maven2-plugin:run
+
 
