@@ -3,20 +3,20 @@
 stages:
     - build
     - test
-   # - deploy
+    - deploy
+
+test1:
+  stage: test
+  script: mvn verify
 
 build1:
   stage: build
   script:
     - mvn install
 
-test1:
-  stage: test
-  script: mvn verify
-
-#deploy1:
- # stage: deploy
-  #script:
-   # - mvn org.codehaus.cargo:cargo-maven2-plugin:run
+deploy1:
+  stage: deploy
+  script:
+    - mvn clean deploy
 
 
