@@ -17,6 +17,6 @@ build1:
 deploy1:
   stage: deploy
   script:
-    - mvn clean deploy
+    - mvn clean deploy -Dmaven.test.skip=true
 
 
