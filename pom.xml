@@ -6,6 +6,13 @@
     <artifactId>spring-framework-petclinic</artifactId>
     <version>5.3.8</version>
 
+    <distributionManagement>
+       <snapshotRepository>
+          <id>nexus-snapshots</id>
+          <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+       </snapshotRepository>
+    </distributionManagement>
+
     <name>Spring Framework Petclinic</name>
     <packaging>war</packaging>
     <description>A Spring Framework application based on JSP, Spring MVC, Spring Data JPA, Hibernate and JDBC</description>
