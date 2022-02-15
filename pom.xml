@@ -7,10 +7,10 @@
     <version>5.3.8</version>
 
     <distributionManagement>
-       <Repository>    
+       <repository>    
 	  <id>nexus-snapshots</id>
 	  <url>http://localhost:8081/repository/maven-snapshots/</url>
-       </Repository>
+       </repository>
     </distributionManagement>
 
     <name>Spring Framework Petclinic</name>
