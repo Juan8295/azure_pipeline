@@ -371,7 +371,7 @@
                </executions>
                <configuration>
                   <serverId>nexus</serverId>
-                  <nexusUrl>http://localhost:8081/repository/maven-snapshots/</nexusUrl>
+                  <nexusUrl>http://localhost:8081</nexusUrl>
                   <skipStaging>true</skipStaging>
                </configuration>
             </plugin>
