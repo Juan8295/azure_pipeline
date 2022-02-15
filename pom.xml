@@ -7,11 +7,9 @@
     <version>5.3.8</version>
 
     <distributionManagement>
-       <Repository>
-	  <uniqueVersion>false</uniqueVersion>     
+       <Repository>    
 	  <id>nexus-snapshots</id>
 	  <url>http://localhost:8081/repository/maven-snapshots/</url>
-          <layout>default</layout>
        </Repository>
     </distributionManagement>
 
