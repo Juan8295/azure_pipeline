@@ -6,15 +6,15 @@
     <artifactId>spring-framework-petclinic</artifactId>
     <version>5.3.8</version>
 
-    <distributionManagement>
-       <repository>
-	  <id>nexus-releases</id>
-          <url>http://localhost:8081/repository/maven-releases/</url>
-       </repository>
+    <distributionManagement>    
        <snapshotRepository>    
-	  <id>nexus-releases</id>
-	  <url>http://localhost:8081/repository/maven-snapshots/</url>
+	  <id>nexus-snapshots</id>
+	  <url>http://192.168.100.190:8081/repository/maven-snapshots/</url>
        </snapshotRepository>
+       <repository>
+	  <id>nexus-releases</id> 
+          <url>http://192.168.100.190:8081/repository/maven-releases/</url>
+       </repository>
     </distributionManagement>
 
     <name>Spring Framework Petclinic</name>
@@ -355,28 +355,7 @@
                 </configuration>
               </configuration>
             </plugin>
-            
-
-            <plugin>
-   	       <groupId>org.sonatype.plugins</groupId>
-               <artifactId>nexus-staging-maven-plugin</artifactId>
-               <version>1.6.3</version>
-               <executions>
-                  <execution>
-                     <id>default-deploy</id>
-                     <phase>deploy</phase>
-                     <goals>
-                        <goal>deploy</goal>
-                     </goals>
-                  </execution>
-               </executions>
-	       <configuration>
-                  <serverId>nexus</serverId>
-                  <nexusUrl>http://localhost:8081/</nexusUrl>
-                  <skipStaging>true</skipStaging>
-               </configuration>
-            </plugin>
-
+         
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
