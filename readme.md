@@ -23,7 +23,7 @@ cd spring-framework-petclinic
 ./mvnw jetty:run-war
 # For Windows : ./mvnw.cmd jetty:run-war
 ```
-#ik heb een wijziging toegevoegd
+
 ### With Docker
 ```
 docker run -p 8080:8080 springcommunity/spring-framework-petclinic
