@@ -1,0 +1,12 @@
+﻿{
+  "acceptTeeEula": true,
+  "agentId": 9,
+  "agentName": "juan-PC",
+  "poolId": 10,
+  "serverUrl": "https://dev.azure.com/juangoezcordoba/",
+  "workFolder": "_work",
+  "projectId": "1408eb59-a627-49f2-bd91-2cf30576dca7",
+  "environmentId": 1,
+  "environmentVMResourceId": 1,
+  "environmentName": "petclinic"
+}
