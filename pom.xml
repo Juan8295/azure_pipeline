@@ -7,14 +7,16 @@
     <version>5.3.8</version>
 
     <distributionManagement>    
-       <snapshotRepository>    
-	  <id>nexus-snapshots</id>
-	  <url>http://localhost:8081/repository/maven-snapshots/</url>
-       </snapshotRepository>
        <repository>
-	  <id>nexus-releases</id> 
-          <url>http://localhost:8081/repository/maven-releases/</url>
-       </repository>
+         <id>juangoezcordoba</id>
+         <url>https://pkgs.dev.azure.com/juangoezcordoba/_packaging/juangoezcordoba/maven/v1</url>
+         <releases>
+           <enabled>true</enabled>
+         </releases>
+         <snapshots>
+           <enabled>true</enabled>
+         </snapshots>
+         </repository>
     </distributionManagement>
 
     <name>Spring Framework Petclinic</name>

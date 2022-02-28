@@ -260,3 +260,439 @@ Date: Fri, 25 Feb 2022 09:30:51 GMT
 [2022-02-25 09:30:54Z INFO Terminal] WRITE LINE: 2022-02-25 09:30:54Z: Listening for Jobs
 [2022-02-25 09:30:54Z INFO JobDispatcher] Set agent/worker IPC timeout to 30 seconds.
 [2022-02-25 10:01:08Z INFO MessageListener] No message retrieved from session 'df3e0ef6-8a6a-4620-b19c-8a2e0545d4d6' within last 30 minutes.
+[2022-02-25 10:26:17Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: c5c85f9b-fd23-48bd-956a-43194ff08075
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 4901a8c4-4919-4837-a67b-7359dda89373
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 73f5767f-8a45-4618-9090-726d00f2f5c4
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fmessages%3FsessionId%3Ddf3e0ef6-8a6a-4620-b19c-8a2e0545d4d6&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: FE50FE227D2440C285A4F7CD23B4E673 Ref B: AM3EDGE0614 Ref C: 2022-02-25T10:26:17Z
+Date: Fri, 25 Feb 2022 10:26:16 GMT
+
+[2022-02-25 10:26:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 10:26:17Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-02-25 10:31:22Z INFO MessageListener] No message retrieved from session 'df3e0ef6-8a6a-4620-b19c-8a2e0545d4d6' within last 30 minutes.
+[2022-02-25 11:01:33Z INFO MessageListener] No message retrieved from session 'df3e0ef6-8a6a-4620-b19c-8a2e0545d4d6' within last 30 minutes.
+[2022-02-25 11:21:38Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: de342e03-d008-4e24-900e-47373067e675
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 7b260c2d-7484-4b9f-a220-81d310fac8fd
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 88115652-52b4-4f97-afb2-50f7759b4337
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fmessages%3FsessionId%3Ddf3e0ef6-8a6a-4620-b19c-8a2e0545d4d6&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 4F3F4E4E096C4B4693C8905BC63EBED7 Ref B: AM3EDGE0614 Ref C: 2022-02-25T11:21:37Z
+Date: Fri, 25 Feb 2022 11:21:37 GMT
+
+[2022-02-25 11:21:38Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 11:21:39Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-02-25 11:31:46Z INFO MessageListener] No message retrieved from session 'df3e0ef6-8a6a-4620-b19c-8a2e0545d4d6' within last 30 minutes.
+[2022-02-25 12:02:00Z INFO MessageListener] No message retrieved from session 'df3e0ef6-8a6a-4620-b19c-8a2e0545d4d6' within last 30 minutes.
+[2022-02-25 12:17:07Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: d5fbce11-ad6f-4134-bbbe-8f03eb07c290
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: f66e8c57-0ec0-47b7-aab6-60671ecf5e96
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 065119c1-ed80-42ee-a58e-a3945853b3fb
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fmessages%3FsessionId%3Ddf3e0ef6-8a6a-4620-b19c-8a2e0545d4d6&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 88BC6CA0B3B34DADA37F025B1B614A0F Ref B: AM3EDGE0614 Ref C: 2022-02-25T12:17:07Z
+Date: Fri, 25 Feb 2022 12:17:07 GMT
+
+[2022-02-25 12:17:07Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 12:17:08Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-02-25 12:25:24Z ERR  VisualStudioServices] GET request to https://dev.azure.com/juangoezcordoba/_apis/distributedtask/pools/10/messages?sessionId=df3e0ef6-8a6a-4620-b19c-8a2e0545d4d6 failed. HTTP Status: BadRequest, AFD Ref: Ref A: 3E3076E6660841E3A1F05299BC1C5C79 Ref B: AM3EDGE0614 Ref C: 2022-02-25T12:25:24Z
+[2022-02-25 12:25:24Z ERR  MessageListener] Catch exception during get next message.
+[2022-02-25 12:25:24Z ERR  MessageListener] Microsoft.TeamFoundation.DistributedTask.WebApi.TaskAgentSessionExpiredException: The session df3e0ef6-8a6a-4620-b19c-8a2e0545d4d6 has been revoked.
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2022-02-25 12:25:24Z INFO ConfigurationManager] LoadSettings
+[2022-02-25 12:25:24Z INFO ConfigurationStore] IsConfigured()
+[2022-02-25 12:25:24Z INFO ConfigurationStore] IsConfigured: True
+[2022-02-25 12:25:24Z INFO ConfigurationManager] Is configured: True
+[2022-02-25 12:25:24Z INFO ConfigurationManager] Settings Loaded
+[2022-02-25 12:25:24Z INFO MessageListener] {
+  "AcceptTeeEula": true,
+  "AgentId": 9,
+  "AgentName": "juan-PC",
+  "PoolId": 10,
+  "ServerUrl": "https://dev.azure.com/juangoezcordoba/",
+  "WorkFolder": "_work",
+  "ProjectId": "1408eb59-a627-49f2-bd91-2cf30576dca7",
+  "EnvironmentId": 1,
+  "EnvironmentVMResourceId": 1,
+  "EnvironmentName": "petclinic"
+}
+[2022-02-25 12:25:24Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2022-02-25 12:25:24Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding '_': './externals/node10/bin/node'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/juan'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'INVOCATION_ID': '046f3732f0ab409fa14553421b4ee62a'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME': '/usr/lib/jvm/default-java'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'JOURNAL_STREAM': '8:133618'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_ADDRESS': 'nl_NL.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_IDENTIFICATION': 'nl_NL.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_MEASUREMENT': 'nl_NL.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_MONETARY': 'nl_NL.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_NAME': 'nl_NL.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_NUMERIC': 'nl_NL.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_PAPER': 'nl_NL.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_TELEPHONE': 'nl_NL.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_TIME': 'nl_NL.UTF-8'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'juan'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'M2_HOME': '/opt/maven'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/opt/maven/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/juan/.dotnet/tools:/home/juan/.dotnet/tools'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2022-02-25 12:25:24Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'juan'
+[2022-02-25 12:25:24Z INFO NixCapabilitiesProvider] Found in cached.
+[2022-02-25 12:25:24Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-02-25 12:25:24Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-02-25 12:25:24Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'juan-PC'
+[2022-02-25 12:25:24Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2022-02-25 12:25:24Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2022-02-25 12:25:24Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'False'
+[2022-02-25 12:25:24Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.200.2'
+[2022-02-25 12:25:24Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'juan-PC'
+[2022-02-25 12:25:24Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-02-25 12:25:24Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-02-25 12:25:24Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-02-25 12:25:24Z INFO MessageListener] Loading Credentials
+[2022-02-25 12:25:24Z INFO ConfigurationStore] HasCredentials()
+[2022-02-25 12:25:24Z INFO ConfigurationStore] stored True
+[2022-02-25 12:25:24Z INFO CredentialManager] GetCredentialProvider
+[2022-02-25 12:25:24Z INFO CredentialManager] Creating type OAuth
+[2022-02-25 12:25:24Z INFO CredentialManager] Creating credential type: OAuth
+[2022-02-25 12:25:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 12:25:24Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2022-02-25 12:25:24Z INFO MessageListener] Attempt to create session.
+[2022-02-25 12:25:24Z INFO MessageListener] Connecting to the Agent Server...
+[2022-02-25 12:25:24Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2022-02-25 12:25:24Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-02-25 12:25:25Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-02-25 12:25:25Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-02-25 12:25:25Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-02-25 12:25:25Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-02-25 12:25:25Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-02-25 12:25:26Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-02-25 12:25:26Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-02-25 12:25:26Z INFO MessageListener] VssConnection created
+[2022-02-25 12:25:26Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: f6fdf0d3-a7d5-40a5-b43a-bdcdd80d320f
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: bb506ffe-7da4-46f7-a10f-68de7c6bb6c5
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 2bb51593-e91a-4f0e-8ae1-ad54fc74198e
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: A3917449813D4EA082E776AD3CD9A427 Ref B: AMBEDGE0710 Ref C: 2022-02-25T12:25:26Z
+Date: Fri, 25 Feb 2022 12:25:25 GMT
+
+[2022-02-25 12:25:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 12:25:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 12:25:26Z ERR  VisualStudioServices] POST request to https://vssps.dev.azure.com/juangoezcordoba/_apis/oauth2/token failed. HTTP Status: NotFound, AFD Ref: Ref A: 57B64683E0C44194912D2A59118F2A31 Ref B: DUS30EDGE0717 Ref C: 2022-02-25T12:25:26Z
+[2022-02-25 12:25:26Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-02-25 12:25:26Z ERR  VisualStudioServices] OAuth issued token provider instance 57491352 failed to retrieve a token.
+Reason: Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: {"$id":"1","innerException":null,"message":"Client registration not found, make sure the Client ID 77123abb-e18b-4c59-9f3a-e1c54075383e is correct.","typeName":"Microsoft.VisualStudio.Services.DelegatedAuthorization.RegistrationNotFoundException, Microsoft.VisualStudio.Services.WebApi","typeKey":"RegistrationNotFoundException","errorCode":0,"eventId":3000}
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+[2022-02-25 12:25:26Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 72456e5c-32d7-47ae-b43b-f926f39fbaf0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 8b776fea-0c76-45a4-9af6-d62bf0ae6f19
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 2bb51593-e91a-4f0e-8ae1-ad54fc74198e
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 796868EC69744A0CB69EC3CC255A93C7 Ref B: AMBEDGE0710 Ref C: 2022-02-25T12:25:26Z
+Date: Fri, 25 Feb 2022 12:25:26 GMT
+
+[2022-02-25 12:25:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 12:25:27Z ERR  VisualStudioServices] POST request to https://vssps.dev.azure.com/juangoezcordoba/_apis/oauth2/token failed. HTTP Status: NotFound, AFD Ref: Ref A: 59CEA06551014B79AC75D98FA19E94F7 Ref B: VIEEDGE1515 Ref C: 2022-02-25T12:25:26Z
+[2022-02-25 12:25:27Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-02-25 12:25:27Z ERR  VisualStudioServices] OAuth issued token provider instance 57491352 failed to retrieve a token.
+Reason: Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: {"$id":"1","innerException":null,"message":"Client registration not found, make sure the Client ID 77123abb-e18b-4c59-9f3a-e1c54075383e is correct.","typeName":"Microsoft.VisualStudio.Services.DelegatedAuthorization.RegistrationNotFoundException, Microsoft.VisualStudio.Services.WebApi","typeKey":"RegistrationNotFoundException","errorCode":0,"eventId":3000}
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+[2022-02-25 12:25:27Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: de342e03-d008-4e24-900e-47373067e675
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 7b2ff528-7484-4b9f-a220-81d310fac8fd
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 2bb51593-e91a-4f0e-8ae1-ad54fc74198e
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: E3ED275AB81241B881C2ABEF6DAC0535 Ref B: AMBEDGE0710 Ref C: 2022-02-25T12:25:27Z
+Date: Fri, 25 Feb 2022 12:25:26 GMT
+
+[2022-02-25 12:25:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 12:25:27Z ERR  VisualStudioServices] POST request to https://vssps.dev.azure.com/juangoezcordoba/_apis/oauth2/token failed. HTTP Status: NotFound, AFD Ref: Ref A: C41A20BB0E8B4EB99C8B6B7B5A88F04D Ref B: VIEEDGE3205 Ref C: 2022-02-25T12:25:27Z
+[2022-02-25 12:25:27Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-02-25 12:25:27Z ERR  VisualStudioServices] OAuth issued token provider instance 57491352 failed to retrieve a token.
+Reason: Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: {"$id":"1","innerException":null,"message":"Client registration not found, make sure the Client ID 77123abb-e18b-4c59-9f3a-e1c54075383e is correct.","typeName":"Microsoft.VisualStudio.Services.DelegatedAuthorization.RegistrationNotFoundException, Microsoft.VisualStudio.Services.WebApi","typeKey":"RegistrationNotFoundException","errorCode":0,"eventId":3000}
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+[2022-02-25 12:25:27Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: f6fdf0d3-a7d5-40a5-b43a-bdcdd80d320f
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: bb50100c-7da4-46f7-a10f-68de7c6bb6c5
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 2bb51593-e91a-4f0e-8ae1-ad54fc74198e
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: A9563EB9D7E34E08AA1749A311D6623C Ref B: AMBEDGE0710 Ref C: 2022-02-25T12:25:27Z
+Date: Fri, 25 Feb 2022 12:25:27 GMT
+
+[2022-02-25 12:25:27Z ERR  VisualStudioServices] POST request to https://dev.azure.com/juangoezcordoba/_apis/distributedtask/pools/10/sessions is not authorized. Details: VS30063: You are not authorized to access https://dev.azure.com.
+[2022-02-25 12:25:27Z ERR  MessageListener] Catch exception during create session.
+[2022-02-25 12:25:27Z ERR  MessageListener] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.CreateSessionAsync(CancellationToken token)
+[2022-02-25 12:25:27Z INFO MessageListener] Non-retriable exception: VS30063: You are not authorized to access https://dev.azure.com.
+[2022-02-25 12:25:27Z ERR  Terminal] WRITE ERROR: Failed to create session. VS30063: You are not authorized to access https://dev.azure.com.
+[2022-02-25 12:25:27Z INFO MessageListener] Non-retriable exception: The session df3e0ef6-8a6a-4620-b19c-8a2e0545d4d6 has been revoked.
+[2022-02-25 12:25:27Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2022-02-25 12:25:27Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 72456e5c-32d7-47ae-b43b-f926f39fbaf0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 8b776e69-0c76-45a4-9af6-d62bf0ae6f19
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 7b83980f-11ad-4cd8-a831-ed1e4a4a8045
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions%2Fdf3e0ef6-8a6a-4620-b19c-8a2e0545d4d6&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: C580AD77C5924E398A7307D82EFCF8A1 Ref B: AMBEDGE0710 Ref C: 2022-02-25T12:25:27Z
+Date: Fri, 25 Feb 2022 12:25:27 GMT
+
+[2022-02-25 12:25:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 12:25:28Z ERR  VisualStudioServices] POST request to https://vssps.dev.azure.com/juangoezcordoba/_apis/oauth2/token failed. HTTP Status: NotFound, AFD Ref: Ref A: 1F376EE31E1C411F8A9C6F7A392ADF49 Ref B: VIEEDGE2306 Ref C: 2022-02-25T12:25:28Z
+[2022-02-25 12:25:28Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-02-25 12:25:28Z ERR  VisualStudioServices] OAuth issued token provider instance 57491352 failed to retrieve a token.
+Reason: Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: {"$id":"1","innerException":null,"message":"Client registration not found, make sure the Client ID 77123abb-e18b-4c59-9f3a-e1c54075383e is correct.","typeName":"Microsoft.VisualStudio.Services.DelegatedAuthorization.RegistrationNotFoundException, Microsoft.VisualStudio.Services.WebApi","typeKey":"RegistrationNotFoundException","errorCode":0,"eventId":3000}
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+[2022-02-25 12:25:28Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: de342e03-d008-4e24-900e-47373067e675
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 7b2ff4c3-7484-4b9f-a220-81d310fac8fd
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 7b83980f-11ad-4cd8-a831-ed1e4a4a8045
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions%2Fdf3e0ef6-8a6a-4620-b19c-8a2e0545d4d6&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: FBEFF0A328AE4903AC4C5F2307D4D070 Ref B: AMBEDGE0710 Ref C: 2022-02-25T12:25:28Z
+Date: Fri, 25 Feb 2022 12:25:28 GMT
+
+[2022-02-25 12:25:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 12:25:29Z ERR  VisualStudioServices] POST request to https://vssps.dev.azure.com/juangoezcordoba/_apis/oauth2/token failed. HTTP Status: NotFound, AFD Ref: Ref A: EE3B0492806941A698923C56D44A924F Ref B: VIEEDGE2613 Ref C: 2022-02-25T12:25:28Z
+[2022-02-25 12:25:29Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-02-25 12:25:29Z ERR  VisualStudioServices] OAuth issued token provider instance 57491352 failed to retrieve a token.
+Reason: Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: {"$id":"1","innerException":null,"message":"Client registration not found, make sure the Client ID 77123abb-e18b-4c59-9f3a-e1c54075383e is correct.","typeName":"Microsoft.VisualStudio.Services.DelegatedAuthorization.RegistrationNotFoundException, Microsoft.VisualStudio.Services.WebApi","typeKey":"RegistrationNotFoundException","errorCode":0,"eventId":3000}
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+[2022-02-25 12:25:29Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: f6fdf0d3-a7d5-40a5-b43a-bdcdd80d320f
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: bb50116b-7da4-46f7-a10f-68de7c6bb6c5
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 7b83980f-11ad-4cd8-a831-ed1e4a4a8045
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions%2Fdf3e0ef6-8a6a-4620-b19c-8a2e0545d4d6&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 64625DCFE74C47C1A713E433F7CFAE32 Ref B: AMBEDGE0710 Ref C: 2022-02-25T12:25:29Z
+Date: Fri, 25 Feb 2022 12:25:28 GMT
+
+[2022-02-25 12:25:29Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-02-25 12:25:29Z ERR  VisualStudioServices] POST request to https://vssps.dev.azure.com/juangoezcordoba/_apis/oauth2/token failed. HTTP Status: NotFound, AFD Ref: Ref A: 8F2807AFE6F14AEF926159C32413BC8D Ref B: VIEEDGE3318 Ref C: 2022-02-25T12:25:29Z
+[2022-02-25 12:25:29Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-02-25 12:25:29Z ERR  VisualStudioServices] OAuth issued token provider instance 57491352 failed to retrieve a token.
+Reason: Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: {"$id":"1","innerException":null,"message":"Client registration not found, make sure the Client ID 77123abb-e18b-4c59-9f3a-e1c54075383e is correct.","typeName":"Microsoft.VisualStudio.Services.DelegatedAuthorization.RegistrationNotFoundException, Microsoft.VisualStudio.Services.WebApi","typeKey":"RegistrationNotFoundException","errorCode":0,"eventId":3000}
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+[2022-02-25 12:25:29Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 72456e5c-32d7-47ae-b43b-f926f39fbaf0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 8b776106-0c76-45a4-9af6-d62bf0ae6f19
+X-TFS-Session: e9c212f0-5dae-43a4-85e7-897241916623
+X-VSS-E2EID: 7b83980f-11ad-4cd8-a831-ed1e4a4a8045
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions%2Fdf3e0ef6-8a6a-4620-b19c-8a2e0545d4d6&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 8368761DE7D7485BA6155A0A2673A747 Ref B: AMBEDGE0710 Ref C: 2022-02-25T12:25:29Z
+Date: Fri, 25 Feb 2022 12:25:29 GMT
+
+[2022-02-25 12:25:29Z ERR  VisualStudioServices] DELETE request to https://dev.azure.com/juangoezcordoba/_apis/distributedtask/pools/10/sessions/df3e0ef6-8a6a-4620-b19c-8a2e0545d4d6 is not authorized. Details: VS30063: You are not authorized to access https://dev.azure.com.
+[2022-02-25 12:25:29Z ERR  Terminal] WRITE ERROR: An error occurred: VS30063: You are not authorized to access https://dev.azure.com.
+[2022-02-25 12:25:29Z ERR  AgentProcess] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpMethod method, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.TeamFoundation.DistributedTask.WebApi.TaskAgentHttpClientBase.DeleteAgentSessionAsync(Int32 poolId, Guid sessionId, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.DeleteSessionAsync()
+   at Microsoft.VisualStudio.Services.Agent.Listener.Agent.RunAsync(AgentSettings settings, Boolean runOnce)
+   at Microsoft.VisualStudio.Services.Agent.Listener.Agent.ExecuteCommand(CommandSettings command)
+   at Microsoft.VisualStudio.Services.Agent.Listener.Program.MainAsync(IHostContext context, String[] args)
