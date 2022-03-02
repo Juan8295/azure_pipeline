@@ -11,12 +11,12 @@
          <id>juangoezcordoba</id>
          <url>https://pkgs.dev.azure.com/juangoezcordoba/_packaging/juangoezcordoba/maven/v1</url>
          <releases>
-           <enabled>true</enabled>
+           <enabled>false</enabled>
          </releases>
          <snapshots>
            <enabled>true</enabled>
          </snapshots>
-         </repository>
+        </repository>
     </distributionManagement>
 
     <name>Spring Framework Petclinic</name>
