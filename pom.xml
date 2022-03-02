@@ -4,12 +4,15 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework.samples</groupId>
     <artifactId>spring-framework-petclinic</artifactId>
-    <version>5.3.8</version>
+    <version>5.3.8-snapshot</version>
 
     <distributionManagement>    
        <repository>
          <id>juangoezcordoba</id>
          <url>https://pkgs.dev.azure.com/juangoezcordoba/_packaging/juangoezcordoba/maven/v1</url>
+         <releases>
+           <enabled>true</enabled>
+         </releases>
          <snapshots>
            <enabled>true</enabled>
          </snapshots>
