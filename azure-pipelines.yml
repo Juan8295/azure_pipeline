@@ -44,15 +44,15 @@ steps:
     sonarQubeRunAnalysis: false
     mavenPath: /usr/share/maven
 
-- task: Maven@3
-  inputs:
-    mavenPomFile: 'pom.xml'
-    goals: 'clean deploy'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    javaHomeOption: 'JDKVersion'
-    mavenVersionOption: Path
-    mavenAuthenticateFeed: false
-    effectivePomSkip: false
-    sonarQubeRunAnalysis: false
-    mavenPath: /usr/share/maven
+#- task: Maven@3
+  #inputs:
+    #mavenPomFile: 'pom.xml'
+    #goals: 'clean deploy'
+    #publishJUnitResults: true
+    #testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    #javaHomeOption: 'JDKVersion'
+    #mavenVersionOption: Path
+    #mavenAuthenticateFeed: false
+    #effectivePomSkip: false
+    #sonarQubeRunAnalysis: false
+    #mavenPath: /usr/share/maven
