@@ -8,9 +8,14 @@ trigger:
 
 pool:
   name: vm-azure
-  
 
 steps:
+
+- task: MavenAuthenticate@0
+  displayName: 'Maven Authenticate'
+  inputs:
+    artifactsFeeds: vm-azure 
+
 
 - task: Maven@3
   inputs:
