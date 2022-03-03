@@ -15,6 +15,7 @@ steps:
   displayName: 'Maven Authenticate'
   inputs:
     artifactsFeeds: vm-azure 
+    mavenServiceConnections: $(personal access token)
 
 
 - task: Maven@3
