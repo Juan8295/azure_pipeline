@@ -55,6 +55,12 @@ steps:
     sonarQubeRunAnalysis: false
     mavenPath: /usr/share/maven
 
+- task: Bash@3
+  displayName: execute-JMeter-test
+  inputs:
+    targetType: filePath
+    filePath: home/juan/apache-jmeter-5.4.1/bin/jmeter.sh
+
 #- task: Maven@3
   #inputs:
     #mavenPomFile: 'pom.xml'
