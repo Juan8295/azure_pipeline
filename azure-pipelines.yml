@@ -17,14 +17,14 @@ steps:
     artifactsFeeds: vm-azure 
     mavenServiceConnections: $(personal access token)
 
-- task: Ant@1
-  displayName: Execute-JMeter-tests
-  inputs:
-    buildFile: 'HTTP-Request.jmx'
-    options: /home/juan/Downloads/
-    publishJUnitResults: false
-    testResultsFiles: '**/TEST-*.xml'
-    javaHomeOption: JDKVersion # Options: jDKVersion
+- #task: Ant@1
+  #displayName: Execute-JMeter-tests
+  #inputs:
+    #buildFile: 'HTTP-Request.jmx'
+    #options: /home/juan/Downloads/
+    #publishJUnitResults: false
+    #testResultsFiles: '**/TEST-*.xml'
+    #javaHomeOption: JDKVersion # Options: jDKVersion
 
 
 - task: Maven@3
