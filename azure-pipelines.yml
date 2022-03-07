@@ -27,7 +27,6 @@ steps:
     javaHomeOption: JDKVersion # Options: jDKVersion
 
 
-
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
