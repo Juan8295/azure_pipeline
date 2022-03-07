@@ -11,12 +11,17 @@ pool:
 
 steps:
 
-- task: Bash@3
-  displayName: execute-JMeter-test
+#- task: Bash@3
+  #displayName: execute-JMeter-test
+  #inputs:
+    #targetType: filePath
+    #filePath: home/juan/apache-jmeter-5.4.1/bin/jmeter.sh
+
+- task: ApacheJMeterLoadTest@1
+  displayName: execute
   inputs:
-    targetType: filePath
-    filePath: home/juan/apache-jmeter-5.4.1/bin/jmeter.sh
-  
+    TestDrop: 
+    loadTest: HTTP-Request.jmx
 
 - task: MavenAuthenticate@0
   displayName: 'Maven Authenticate'
