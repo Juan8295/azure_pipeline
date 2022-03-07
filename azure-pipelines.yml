@@ -17,7 +17,7 @@ steps:
     artifactsFeeds: vm-azure 
     mavenServiceConnections: $(personal access token)
 
-- #task: Ant@1
+#- task: Ant@1
   #displayName: Execute-JMeter-tests
   #inputs:
     #buildFile: 'HTTP-Request.jmx'
