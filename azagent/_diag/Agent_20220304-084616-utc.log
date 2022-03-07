@@ -1,0 +1,365 @@
+[2022-03-04 08:46:16Z INFO AgentProcess] Agent package linux-x64.
+[2022-03-04 08:46:16Z INFO AgentProcess] Running on Linux (X64).
+[2022-03-04 08:46:16Z INFO AgentProcess] RuntimeInformation: Linux 5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022.
+[2022-03-04 08:46:16Z INFO AgentProcess] Version: 2.200.2
+[2022-03-04 08:46:16Z INFO AgentProcess] Commit: 2ebaa3d8b40bee7430d8a3c9ee2292b34e5986ca
+[2022-03-04 08:46:16Z INFO AgentProcess] Culture: en-US
+[2022-03-04 08:46:16Z INFO AgentProcess] UI Culture: en-US
+[2022-03-04 08:46:16Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:16Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:16Z INFO AgentProcess] Validating directory permissions for: '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:16Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:16Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO CommandSettings] Run {
+  "Commit": false,
+  "Diagnostics": false,
+  "RunOnce": false,
+  "StartupType": "service",
+  "Help": false,
+  "Version": false
+}
+[2022-03-04 08:46:17Z INFO AgentProcess] Arguments parsed
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO HostContext] Well known config file 'Proxy': '/home/juan/petclinic_maven/petclinic-maven/azagent/.proxy'
+[2022-03-04 08:46:17Z INFO VstsAgentWebProxy] No proxy setting found.
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO HostContext] Well known config file 'Certificates': '/home/juan/petclinic_maven/petclinic-maven/azagent/.certificates'
+[2022-03-04 08:46:17Z INFO AgentCertificateManager] No certificate setting found.
+[2022-03-04 08:46:17Z INFO Agent] ExecuteCommand
+[2022-03-04 08:46:17Z INFO ConfigurationStore] currentAssemblyLocation: /home/juan/petclinic_maven/petclinic-maven/azagent/bin/Agent.Listener.dll
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO ConfigurationStore] binPath: /home/juan/petclinic_maven/petclinic-maven/azagent/bin
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO ConfigurationStore] RootFolder: /home/juan/petclinic_maven/petclinic-maven/azagent
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO HostContext] Well known config file 'Agent': '/home/juan/petclinic_maven/petclinic-maven/azagent/.agent'
+[2022-03-04 08:46:17Z INFO ConfigurationStore] ConfigFilePath: /home/juan/petclinic_maven/petclinic-maven/azagent/.agent
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO HostContext] Well known config file 'Credentials': '/home/juan/petclinic_maven/petclinic-maven/azagent/.credentials'
+[2022-03-04 08:46:17Z INFO ConfigurationStore] CredFilePath: /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO HostContext] Well known config file 'Service': '/home/juan/petclinic_maven/petclinic-maven/azagent/.service'
+[2022-03-04 08:46:17Z INFO ConfigurationStore] ServiceConfigFilePath: /home/juan/petclinic_maven/petclinic-maven/azagent/.service
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO HostContext] Well known config file 'Autologon': '/home/juan/petclinic_maven/petclinic-maven/azagent/.autologon'
+[2022-03-04 08:46:17Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/juan/petclinic_maven/petclinic-maven/azagent/.autologon
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO HostContext] Well known config file 'Options': '/home/juan/petclinic_maven/petclinic-maven/azagent/.options'
+[2022-03-04 08:46:17Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/juan/petclinic_maven/petclinic-maven/azagent/.options
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO HostContext] Well known config file 'SetupInfo': '/home/juan/petclinic_maven/petclinic-maven/azagent/.setup_info'
+[2022-03-04 08:46:17Z INFO ConfigurationStore] SetupInfoFilePath: /home/juan/petclinic_maven/petclinic-maven/azagent/.setup_info
+[2022-03-04 08:46:17Z INFO ConfigurationManager] LoadSettings
+[2022-03-04 08:46:17Z INFO ConfigurationStore] IsConfigured()
+[2022-03-04 08:46:17Z INFO ConfigurationStore] IsConfigured: True
+[2022-03-04 08:46:17Z INFO ConfigurationManager] Is configured: True
+[2022-03-04 08:46:17Z INFO ConfigurationStore] Read setting file: 310 chars
+[2022-03-04 08:46:17Z INFO ConfigurationManager] Settings Loaded
+[2022-03-04 08:46:17Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-03-04 08:46:17Z INFO ConfigurationStore] IsServiceConfigured: True
+[2022-03-04 08:46:17Z INFO ConfigurationStore] IsConfigured()
+[2022-03-04 08:46:17Z INFO ConfigurationStore] IsConfigured: True
+[2022-03-04 08:46:17Z INFO ConfigurationManager] Is configured: True
+[2022-03-04 08:46:17Z INFO Agent] Set agent startup type - Service
+[2022-03-04 08:46:17Z INFO CommandSettings] Flag 'once': 'False'
+[2022-03-04 08:46:17Z INFO CommandSettings] Flag 'once': 'False'
+[2022-03-04 08:46:17Z INFO Agent] RunAsync
+[2022-03-04 08:46:17Z INFO ConfigurationManager] LoadSettings
+[2022-03-04 08:46:17Z INFO ConfigurationStore] IsConfigured()
+[2022-03-04 08:46:17Z INFO ConfigurationStore] IsConfigured: True
+[2022-03-04 08:46:17Z INFO ConfigurationManager] Is configured: True
+[2022-03-04 08:46:17Z INFO ConfigurationManager] Settings Loaded
+[2022-03-04 08:46:17Z INFO MessageListener] {
+  "AcceptTeeEula": true,
+  "AgentId": 9,
+  "AgentName": "juan-PC",
+  "PoolId": 10,
+  "ServerUrl": "https://dev.azure.com/juangoezcordoba/",
+  "WorkFolder": "_work",
+  "ProjectId": "1408eb59-a627-49f2-bd91-2cf30576dca7",
+  "EnvironmentId": 1,
+  "EnvironmentVMResourceId": 1,
+  "EnvironmentName": "petclinic"
+}
+[2022-03-04 08:46:17Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2022-03-04 08:46:17Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2022-03-04 08:46:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2022-03-04 08:46:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2022-03-04 08:46:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2022-03-04 08:46:17Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding '_': './externals/node10/bin/node'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/juan'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'INVOCATION_ID': '3902851091bf4b76b0e69d3bf607fb3d'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME': '/usr/lib/jvm/default-java'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'JOURNAL_STREAM': '8:33404'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_ADDRESS': 'nl_NL.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_IDENTIFICATION': 'nl_NL.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_MEASUREMENT': 'nl_NL.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_MONETARY': 'nl_NL.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_NAME': 'nl_NL.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_NUMERIC': 'nl_NL.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_PAPER': 'nl_NL.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_TELEPHONE': 'nl_NL.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LC_TIME': 'nl_NL.UTF-8'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'juan'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'M2_HOME': '/opt/maven'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/opt/maven/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/juan/.dotnet/tools:/home/juan/.dotnet/tools'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2022-03-04 08:46:17Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'juan'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'android'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Checking file: '/home/juan/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'ant'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'clang'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'curl'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'docker'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Adding 'dotnet': '/usr/bin/dotnet'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'git'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'java'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Adding 'java': '/usr/bin/java'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'javac'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Adding 'JDK': '/usr/bin/javac'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'make'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Adding 'maven': '/usr/bin/mvn'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'node'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'npm'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'python'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'python3'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Adding 'python3': '/usr/bin/python3'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'sh'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Adding 'sh': '/usr/bin/sh'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'svn'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'rake'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'svn'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'generator'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2022-03-04 08:46:17Z INFO CapabilitiesBuilder] Not found.
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'juan-PC'
+[2022-03-04 08:46:17Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2022-03-04 08:46:17Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2022-03-04 08:46:17Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'False'
+[2022-03-04 08:46:17Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.200.2'
+[2022-03-04 08:46:17Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'juan-PC'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO MessageListener] Loading Credentials
+[2022-03-04 08:46:17Z INFO ConfigurationStore] HasCredentials()
+[2022-03-04 08:46:17Z INFO ConfigurationStore] stored True
+[2022-03-04 08:46:17Z INFO CredentialManager] GetCredentialProvider
+[2022-03-04 08:46:17Z INFO CredentialManager] Creating type OAuth
+[2022-03-04 08:46:17Z INFO CredentialManager] Creating credential type: OAuth
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Bin': '/home/juan/petclinic_maven/petclinic-maven/azagent/bin'
+[2022-03-04 08:46:17Z INFO HostContext] Well known directory 'Root': '/home/juan/petclinic_maven/petclinic-maven/azagent'
+[2022-03-04 08:46:17Z INFO HostContext] Well known config file 'RSACredentials': '/home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams'
+[2022-03-04 08:46:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-03-04 08:46:17Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2022-03-04 08:46:17Z INFO MessageListener] Attempt to create session.
+[2022-03-04 08:46:17Z INFO MessageListener] Connecting to the Agent Server...
+[2022-03-04 08:46:17Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2022-03-04 08:46:17Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-03-04 08:46:17Z WARN VisualStudioServices] Attempt 1 of GET request to https://dev.azure.com/juangoezcordoba/_apis/connectionData?connectOptions=1&lastChangeId=35455004&lastChangeId64=35455004 failed (Socket Error: TryAgain). The operation will be retried in 11.1311037 seconds.
+[2022-03-04 08:46:30Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-03-04 08:46:30Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-03-04 08:46:30Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-03-04 08:46:30Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-03-04 08:46:30Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-03-04 08:46:30Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-03-04 08:46:30Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-03-04 08:46:30Z INFO MessageListener] VssConnection created
+[2022-03-04 08:46:31Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: ed080ed7-8e5b-44bf-b393-e2e40b50d816
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 95c18e65-2bf1-48a7-8fbb-733e9a5b2423
+X-TFS-Session: 91b62995-06b7-438c-8d5e-9282084d391d
+X-VSS-E2EID: 07a4aab4-1110-4aca-98fb-47823044b6a3
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 5F0ED6930C8E4ED586BEC2ABA3EE3934 Ref B: AMBEDGE0810 Ref C: 2022-03-04T08:46:30Z
+Date: Fri, 04 Mar 2022 08:46:30 GMT
+
+[2022-03-04 08:46:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-03-04 08:46:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-03-04 08:46:31Z ERR  VisualStudioServices] POST request to https://vssps.dev.azure.com/juangoezcordoba/_apis/oauth2/token failed. HTTP Status: NotFound, AFD Ref: Ref A: AAACB5E6440F45539D84A0E49F439ADA Ref B: AMBEDGE0715 Ref C: 2022-03-04T08:46:31Z
+[2022-03-04 08:46:31Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-03-04 08:46:31Z ERR  VisualStudioServices] OAuth issued token provider instance 8883693 failed to retrieve a token.
+Reason: Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: {"$id":"1","innerException":null,"message":"Client registration not found, make sure the Client ID 77123abb-e18b-4c59-9f3a-e1c54075383e is correct.","typeName":"Microsoft.VisualStudio.Services.DelegatedAuthorization.RegistrationNotFoundException, Microsoft.VisualStudio.Services.WebApi","typeKey":"RegistrationNotFoundException","errorCode":0,"eventId":3000}
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+[2022-03-04 08:46:31Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 64d9309a-3b84-4d02-b10a-cec30190a7fd
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 65fb3b75-23b1-4b2e-b36b-d7ae46376087
+X-TFS-Session: 91b62995-06b7-438c-8d5e-9282084d391d
+X-VSS-E2EID: 07a4aab4-1110-4aca-98fb-47823044b6a3
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 8603B47D6A61414097E4F401FE76F105 Ref B: AMBEDGE0810 Ref C: 2022-03-04T08:46:31Z
+Date: Fri, 04 Mar 2022 08:46:30 GMT
+
+[2022-03-04 08:46:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-03-04 08:46:32Z ERR  VisualStudioServices] POST request to https://vssps.dev.azure.com/juangoezcordoba/_apis/oauth2/token failed. HTTP Status: NotFound, AFD Ref: Ref A: C0DCB69EFC0C4B3AA18F3D6D3E8A3320 Ref B: AMBEDGE0713 Ref C: 2022-03-04T08:46:31Z
+[2022-03-04 08:46:32Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-03-04 08:46:32Z ERR  VisualStudioServices] OAuth issued token provider instance 8883693 failed to retrieve a token.
+Reason: Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: {"$id":"1","innerException":null,"message":"Client registration not found, make sure the Client ID 77123abb-e18b-4c59-9f3a-e1c54075383e is correct.","typeName":"Microsoft.VisualStudio.Services.DelegatedAuthorization.RegistrationNotFoundException, Microsoft.VisualStudio.Services.WebApi","typeKey":"RegistrationNotFoundException","errorCode":0,"eventId":3000}
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+[2022-03-04 08:46:32Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 63432abc-bad6-482d-86eb-435df1a9a034
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 1e8b3790-b072-4a4c-8ddf-df32d1760b44
+X-TFS-Session: 91b62995-06b7-438c-8d5e-9282084d391d
+X-VSS-E2EID: 07a4aab4-1110-4aca-98fb-47823044b6a3
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 2F57E2099E2A4913BCFF8522F86598E8 Ref B: AMBEDGE0810 Ref C: 2022-03-04T08:46:32Z
+Date: Fri, 04 Mar 2022 08:46:31 GMT
+
+[2022-03-04 08:46:32Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/juan/petclinic_maven/petclinic-maven/azagent/.credentials_rsaparams
+[2022-03-04 08:46:32Z ERR  VisualStudioServices] POST request to https://vssps.dev.azure.com/juangoezcordoba/_apis/oauth2/token failed. HTTP Status: NotFound, AFD Ref: Ref A: 5711C89ECB584E828F5008D31C336367 Ref B: AMBEDGE0706 Ref C: 2022-03-04T08:46:32Z
+[2022-03-04 08:46:32Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2022-03-04 08:46:32Z ERR  VisualStudioServices] OAuth issued token provider instance 8883693 failed to retrieve a token.
+Reason: Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: {"$id":"1","innerException":null,"message":"Client registration not found, make sure the Client ID 77123abb-e18b-4c59-9f3a-e1c54075383e is correct.","typeName":"Microsoft.VisualStudio.Services.DelegatedAuthorization.RegistrationNotFoundException, Microsoft.VisualStudio.Services.WebApi","typeKey":"RegistrationNotFoundException","errorCode":0,"eventId":3000}
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenHttpClient.GetTokenAsync(VssOAuthGrant grant, VssOAuthClientCredential credential, VssOAuthTokenParameters tokenParameters, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+[2022-03-04 08:46:32Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/16495547-537e-4dd0-8132-f2dc60e1a825, Basic realm="https://tfsprodweu8.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 64d9309a-3b84-4d02-b10a-cec30190a7fd
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 65fb3a0d-23b1-4b2e-b36b-d7ae46376087
+X-TFS-Session: 91b62995-06b7-438c-8d5e-9282084d391d
+X-VSS-E2EID: 07a4aab4-1110-4aca-98fb-47823044b6a3
+X-VSS-SenderDeploymentId: c518140b-a1e2-d11a-3c91-1a181d4b1e29
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodweu8.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/juangoezcordoba/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/juangoezcordoba/
+X-VSS-ResourceTenant: 16495547-537e-4dd0-8132-f2dc60e1a825
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodweu5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fjuangoezcordoba%2F_apis%2Fdistributedtask%2Fpools%2F10%2Fsessions&redirect=1&hid=d0d98701-9dc9-4a9c-9b32-38cd8b0380dc&context=eyJodCI6MiwiaGlkIjoiMWQ3ZmJhYTktZTlhZS00NGU3LTkwYjgtMjdhNTU4MGNiMGFmIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5ff2fb41-7b44-4199-811f-c76fe5186821
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: F22764202E8C4AC3A30C29732F260541 Ref B: AMBEDGE0810 Ref C: 2022-03-04T08:46:32Z
+Date: Fri, 04 Mar 2022 08:46:31 GMT
+
+[2022-03-04 08:46:32Z ERR  VisualStudioServices] POST request to https://dev.azure.com/juangoezcordoba/_apis/distributedtask/pools/10/sessions is not authorized. Details: VS30063: You are not authorized to access https://dev.azure.com.
+[2022-03-04 08:46:32Z ERR  MessageListener] Catch exception during create session.
+[2022-03-04 08:46:32Z ERR  MessageListener] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.MessageListener.CreateSessionAsync(CancellationToken token)
+[2022-03-04 08:46:32Z INFO MessageListener] Non-retriable exception: VS30063: You are not authorized to access https://dev.azure.com.
+[2022-03-04 08:46:32Z ERR  Terminal] WRITE ERROR: Failed to create session. VS30063: You are not authorized to access https://dev.azure.com.
