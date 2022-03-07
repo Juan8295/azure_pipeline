@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'vm-azure'
+  vmImage: 'ubuntu-latest'
 
 steps:
 
