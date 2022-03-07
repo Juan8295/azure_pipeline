@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: vm-azure
+  name: 'vm-azure'
 
 steps:
 
