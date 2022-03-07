@@ -20,7 +20,6 @@ steps:
 - task: ApacheJMeterLoadTest@1
   displayName: execute
   inputs:
-    TestDrop: 
     loadTest: HTTP-Request.jmx
 
 - task: MavenAuthenticate@0
