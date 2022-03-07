@@ -24,10 +24,10 @@ steps:
     artifactsFeeds: vm-azure 
     mavenServiceConnections: $(personal access token)
 
-- task: ApacheJMeterLoadTest@1
-  displayName: execute
-  inputs:
-    loadTest: HTTP-Request.jmx
+#- task: ApacheJMeterLoadTest@1
+  #displayName: execute
+  #inputs:
+    #loadTest: HTTP-Request.jmx
 
 - task: Maven@3
   inputs:
