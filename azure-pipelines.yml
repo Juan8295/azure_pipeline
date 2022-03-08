@@ -61,7 +61,7 @@ steps:
     targetType: 'inline'
     workingDirectory: /opt/apache-jmeter-5.4.1/bin/
     script: |
-      ./jmeter.sh -n -t /home/azureuser/azure_pipeline/test.jmx -l /home/azureuser/azureuser/azure_pipeline/htlm-test/testresults_2.jtl -e -o /home/azureuser/azureuser/azure_pipeline/htlm-test/tests 
+      ./jmeter.sh -n -t /home/azureuser/azure_pipeline/test.jmx -l /home/azureuser/azureuser/azure_pipeline/htlm-test/testresults_2.jtl
           cd ~
           cd azure_pipeline 
           git add . 
