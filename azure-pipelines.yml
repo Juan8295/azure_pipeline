@@ -58,8 +58,14 @@ steps:
 - task: Bash@3
   displayName: execute-JMeter-test
   inputs:
-    targetType: filePath
-    filePath: home/juan/apache-jmeter-5.4.1/bin/jmeter.sh
+    targetType: 'inline'
+    script: |
+      ./jmeter.sh -n -t /home/azureuser/azure_pipeline/test.jmx -l /home/azureuser/azureuser/azure_pipeline/htlm-test/testresults_2.jtl -e -o /home/azureuser/azureuser/azure_pipeline/htlm-test/tests \n
+          cd home/azureuser/azure_pipeline \n
+          git add . \n
+          git commit -m "push" \n
+          git push https://github.com/Juan8295/azure_pipeline.git
+
 
 #- task: Maven@3
   #inputs:
