@@ -11,21 +11,23 @@ pool:
 
 steps:
 
+#- task: Bash@3
+  #displayName: execute-JMeter-test
+  #inputs:
+    #targetType: filePath
+    #filePath: home/juan/apache-jmeter-5.4.1/bin/jmeter.sh
+
+
 - task: MavenAuthenticate@0
   displayName: 'Maven Authenticate'
   inputs:
     artifactsFeeds: vm-azure 
     mavenServiceConnections: $(personal access token)
 
-#- task: Ant@1
-  #displayName: Execute-JMeter-tests
+#- task: ApacheJMeterLoadTest@1
+  #displayName: execute
   #inputs:
-    #buildFile: 'HTTP-Request.jmx'
-    #options: /home/juan/Downloads/
-    #publishJUnitResults: false
-    #testResultsFiles: '**/TEST-*.xml'
-    #javaHomeOption: JDKVersion # Options: jDKVersion
-
+    #loadTest: HTTP-Request.jmx
 
 - task: Maven@3
   inputs:
@@ -52,6 +54,12 @@ steps:
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
     mavenPath: /usr/share/maven
+
+- task: Bash@3
+  displayName: execute-JMeter-test
+  inputs:
+    targetType: filePath
+    filePath: home/juan/apache-jmeter-5.4.1/bin/jmeter.sh
 
 #- task: Maven@3
   #inputs:
