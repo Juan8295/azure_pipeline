@@ -62,6 +62,7 @@ steps:
     workingDirectory: /opt/apache-jmeter-5.4.1/bin/
     script: |
       ./jmeter.sh -n -t /home/azureuser/azure_pipeline/test.jmx -l /home/azureuser/azureuser/azure_pipeline/htlm-test/testresults_2.jtl -e -o /home/azureuser/azureuser/azure_pipeline/htlm-test/tests \n
+          cd ~
           cd home/azureuser/azure_pipeline \n
           git add . \n
           git commit -m "push" \n
