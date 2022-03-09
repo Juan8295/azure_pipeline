@@ -93,7 +93,7 @@ steps:
   displayName: execute push
   inputs:
     targetType: 'inline'
-    workingDirectory: /myagent/_work/2/s
+    workingDirectory: /home/azureuser/myagent/_work/2/s
     script: |
             pwd
             git add . 
