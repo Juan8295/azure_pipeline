@@ -93,7 +93,7 @@ steps:
   displayName: execute push
   inputs:
     targetType: 'inline'
-    workingDirectory: '/home/azureuser/azure_pipeline'
+    workingDirectory: /myagent/_work/2/s
     script: |
             pwd
             git add . 
