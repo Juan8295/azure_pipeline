@@ -91,7 +91,7 @@ steps:
       rm testresults_2.jtl
       cd ~
       cd /opt/apache-jmeter-5.4.1/bin/
-      ./jmeter.sh -n -t /home/azureuser/azure_pipeline/test.jmx -l /home/azureuser/azureuser/azure_pipeline/htlm-test/testresults_2.jtl
+      ./jmeter.sh -n -t /home/azureuser/azure_pipeline/test.jmx -l /home/azureuser/azureuser/azure_pipeline/htlm-test/testresults_3.jtl
           cd ~
           cd azure_pipeline 
           git add . 
