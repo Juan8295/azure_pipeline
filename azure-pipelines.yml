@@ -97,4 +97,4 @@ steps:
     script: |
             git add . 
             git commit -m "push" 
-            git push git@github.com:Juan8295/azure_pipeline.git master
+            git push https://github.com/Juan8295/azure_pipeline.git
