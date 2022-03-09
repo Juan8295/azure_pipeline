@@ -1,3 +1,4 @@
+
 # Starter pipeline
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
@@ -95,6 +96,7 @@ steps:
     targetType: 'inline'
     workingDirectory: /home/azureuser/myagent/_work/2/s
     script: |
+            git checkout test
             git add . 
             git commit -m "push" 
             git push https://github.com/Juan8295/azure_pipeline.git
