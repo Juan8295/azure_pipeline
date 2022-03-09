@@ -86,11 +86,10 @@ steps:
   displayName: execute-JMeter-test
   inputs:
     targetType: 'inline'
-    workingDirectory: /home/azureuser/azure_pipeline/
+    workingDirectory: /opt/apache-jmeter-5.4.1/bin/
     script: |
-      rm /htlm-test/testresults_2.jtl
-      cd /opt/apache-jmeter-5.4.1/bin/
-      ./jmeter.sh -n -t /home/azureuser/azure_pipeline/test.jmx -l /home/azureuser/azureuser/azure_pipeline/htlm-test/testresults_3.jtl 
+      ./jmeter.sh -n -t /home/azureuser/azure_pipeline/test.jmx -l /home/azureuser/azureuser/azure_pipeline/htlm-test/testresults_3.jtl
+      cd /home/azeruser/azure_pipeline/ 
       git add . 
       git commit -m "push" 
       git push git@github.com:Juan8295/azure_pipeline.git
