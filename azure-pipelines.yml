@@ -95,6 +95,7 @@ steps:
     targetType: 'inline'
     workingDirectory: '/home/azureuser/azure_pipeline'
     script: |
+            pwd
             git add . 
             git commit -m "push" 
             git push git@github.com:Juan8295/azure_pipeline.git
