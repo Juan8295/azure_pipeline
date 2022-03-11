@@ -12,13 +12,6 @@ pool:
 
 steps:
 
-#- task: Bash@3
-  #displayName: execute-JMeter-test
-  #inputs:
-    #targetType: filePath
-    #filePath: home/juan/apache-jmeter-5.4.1/bin/jmeter.sh
-
-
 - task: MavenAuthenticate@0
   displayName: 'Maven Authenticate'
   inputs:
@@ -100,3 +93,12 @@ steps:
             git add . 
             git commit -m "push" 
             git push git@github.com:Juan8295/azure_pipeline.git HEAD:master
+
+- task: Bash@3
+  displayName: Selenium-test
+  inputs:
+   targetType: 'inline'
+   workingDirectory: /home/azureuser/myagent/_work/2/s
+   script: 
+     pip install selenium
+     python3 Selenium-test.py
