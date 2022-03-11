@@ -1,3 +1,4 @@
+
 # Starter pipeline
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
@@ -55,21 +56,47 @@ steps:
     sonarQubeRunAnalysis: false
     mavenPath: /usr/share/maven
 
+#- task: Bash@3
+  #displayName: execute-JMeter-test
+  #inputs:
+    #targetType: 'inline'
+    #workingDirectory: /opt/apache-jmeter-5.4.1/bin/
+    #script: |
+      #./jmeter.sh -n -t /home/azureuser/azure_pipeline/test.jmx -l /home/azureuser/azureuser/azure_pipeline/htlm-test/testresults_3.jtl
+          #cd ~
+          #cd azure_pipeline 
+          #git add . 
+          #git commit -m "push" 
+          #git push git@github.com:Juan8295/azure_pipeline.git
+
+
+- task: Maven@3
+  inputs:
+    mavenPomFile: 'pom.xml'
+    goals: 'clean deploy'
+    publishJUnitResults: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    javaHomeOption: 'JDKVersion'
+    mavenVersionOption: Path
+    mavenAuthenticateFeed: false
+    effectivePomSkip: false
+    sonarQubeRunAnalysis: false
+    mavenPath: /usr/share/maven
+
 - task: Bash@3
   displayName: execute-JMeter-test
   inputs:
-    targetType: filePath
-    filePath: home/juan/apache-jmeter-5.4.1/bin/jmeter.sh
-
-#- task: Maven@3
-  #inputs:
-    #mavenPomFile: 'pom.xml'
-    #goals: 'clean deploy'
-    #publishJUnitResults: true
-    #testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    #javaHomeOption: 'JDKVersion'
-    #mavenVersionOption: Path
-    #mavenAuthenticateFeed: false
-    #effectivePomSkip: false
-    #sonarQubeRunAnalysis: false
-    #mavenPath: /usr/share/maven
+    targetType: 'inline'
+    workingDirectory: /opt/apache-jmeter-5.4.1/bin/
+    script: |
+      ./jmeter.sh -n -t /home/azureuser/myagent/_work/2/s/test.jmx -l /home/azureuser/myagent/_work/2/s/htlm-test/testresults2.jtl
+- task: Bash@3
+  displayName: execute push
+  inputs:
+    targetType: 'inline'
+    workingDirectory: /home/azureuser/myagent/_work/2/s
+    script: |
+            git checkout test
+            git add . 
+            git commit -m "push" 
+            git push git@github.com:Juan8295/azure_pipeline.git HEAD:master
