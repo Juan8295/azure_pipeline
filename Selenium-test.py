@@ -12,12 +12,12 @@ import unittest, time, re
 
 class AddEditTest(unittest.TestCase):
     def setUp(self):
-        chrome_options = Options()
-        chrome_options.add_argument('--headless')
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--disable-dev-shm-usage')
-        #s = Service("/home/azureuser/Downloads/chromedriver",)
-        self.driver = webdriver.Chrome(chrome_options=chrome_options)
+        #chrome_options = Options()
+        #chrome_options.add_argument('--headless')
+        #chrome_options.add_argument('--no-sandbox')
+        #chrome_options.add_argument('--disable-dev-shm-usage')
+        s = Service("/home/azureuser/Downloads/chromedriver",)
+        self.driver = webdriver.Chrome(service=s)
         self.driver.implicitly_wait(30)
         self.base_url = "http://localhost:8084/petclinic"
         self.verificationErrors = []
