@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from selenium import path
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -11,8 +12,8 @@ import unittest, time, re
 
 class AddEditTest(unittest.TestCase):
     def setUp(self):
-        s = Service("/home/azureuser/myagent/_work/2/s/")
-        self.driver = webdriver.Chrome(service=s)
+        PATH = "/home/azureuser/myagent/_work/2/s/chromedriver"
+        self.driver = webdriver.Chrome(PATH)
         self.driver.implicitly_wait(30)
         self.base_url = "http://localhost:8084/petclinic"
         self.verificationErrors = []
