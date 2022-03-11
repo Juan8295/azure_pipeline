@@ -100,5 +100,5 @@ steps:
    targetType: 'inline'
    workingDirectory: /home/azureuser/myagent/_work/2/s
    script: 
-     pip install selenium
+     pip install selenium ;
      python3 Selenium-test.py
