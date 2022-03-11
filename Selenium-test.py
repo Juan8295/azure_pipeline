@@ -11,7 +11,7 @@ import unittest, time, re
 
 class AddEditTest(unittest.TestCase):
     def setUp(self):
-        s = Service("/home/azureuser/myagent/_work/2/s/chromedriver")
+        s = Service("/home/azureuser/Downloads/chromedriver")
         self.driver = webdriver.Chrome(service=s)
         self.driver.implicitly_wait(30)
         self.base_url = "http://localhost:8084/petclinic"
