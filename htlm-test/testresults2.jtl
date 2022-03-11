@@ -329,3 +329,113 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1647011062137,4,AddNewOwner,200,,Thread Group 1-10,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,4,0,0
 1647011062142,10,Veterinarians ,200,,Thread Group 1-10,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,10,0,0
 1647011062153,11,ErrorPage,200,,Thread Group 1-10,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,11,0,0
+1647011172741,55,HomePage,200,,Thread Group 1-1,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,44,0,32
+1647011172741,47,HomePage-0,302,,Thread Group 1-1,,true,,110,126,1,1,http://localhost:8084/petclinic,44,0,32
+1647011172790,6,HomePage-1,200,,Thread Group 1-1,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,6,0,0
+1647011172807,9,FindOwners,200,,Thread Group 1-1,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,9,0,0
+1647011172817,44,FindOwner,200,,Thread Group 1-1,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,44,0,0
+1647011172862,26,Owner-1,200,,Thread Group 1-1,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,26,0,0
+1647011172889,18,EditOwner,200,,Thread Group 1-1,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,17,0,0
+1647011172908,24,AddNewPet,200,,Thread Group 1-1,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,23,0,0
+1647011172932,7,AddNewOwner,200,,Thread Group 1-1,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,7,0,0
+1647011172939,11,Veterinarians ,200,,Thread Group 1-1,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,10,0,0
+1647011172950,5,ErrorPage,200,,Thread Group 1-1,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,4,0,0
+1647011173592,6,HomePage,200,,Thread Group 1-2,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,2,0,1
+1647011173592,2,HomePage-0,302,,Thread Group 1-2,,true,,110,126,1,1,http://localhost:8084/petclinic,2,0,1
+1647011173595,3,HomePage-1,200,,Thread Group 1-2,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,3,0,0
+1647011173600,3,FindOwners,200,,Thread Group 1-2,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,3,0,0
+1647011173604,31,FindOwner,200,,Thread Group 1-2,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,31,0,0
+1647011173636,14,Owner-1,200,,Thread Group 1-2,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,14,0,0
+1647011173651,15,EditOwner,200,,Thread Group 1-2,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,15,0,0
+1647011173667,14,AddNewPet,200,,Thread Group 1-2,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,14,0,0
+1647011173681,8,AddNewOwner,200,,Thread Group 1-2,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,8,0,0
+1647011173689,10,Veterinarians ,200,,Thread Group 1-2,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,10,0,0
+1647011173699,4,ErrorPage,200,,Thread Group 1-2,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,4,0,0
+1647011174588,7,HomePage,200,,Thread Group 1-3,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,3,0,1
+1647011174588,3,HomePage-0,302,,Thread Group 1-3,,true,,110,126,1,1,http://localhost:8084/petclinic,3,0,1
+1647011174591,4,HomePage-1,200,,Thread Group 1-3,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,4,0,0
+1647011174595,3,FindOwners,200,,Thread Group 1-3,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,3,0,0
+1647011174599,74,FindOwner,200,,Thread Group 1-3,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,74,0,0
+1647011174674,11,Owner-1,200,,Thread Group 1-3,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,11,0,0
+1647011174686,22,EditOwner,200,,Thread Group 1-3,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,22,0,0
+1647011174708,41,AddNewPet,200,,Thread Group 1-3,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,41,0,0
+1647011174750,6,AddNewOwner,200,,Thread Group 1-3,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,6,0,0
+1647011174756,5,Veterinarians ,200,,Thread Group 1-3,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,5,0,0
+1647011174762,2,ErrorPage,200,,Thread Group 1-3,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,2,0,0
+1647011175586,8,HomePage,200,,Thread Group 1-4,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,3,0,1
+1647011175586,3,HomePage-0,302,,Thread Group 1-4,,true,,110,126,1,1,http://localhost:8084/petclinic,3,0,1
+1647011175589,5,HomePage-1,200,,Thread Group 1-4,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,5,0,0
+1647011175594,4,FindOwners,200,,Thread Group 1-4,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,4,0,0
+1647011175599,33,FindOwner,200,,Thread Group 1-4,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,33,0,0
+1647011175633,11,Owner-1,200,,Thread Group 1-4,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,11,0,0
+1647011175644,14,EditOwner,200,,Thread Group 1-4,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,14,0,0
+1647011175658,21,AddNewPet,200,,Thread Group 1-4,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,21,0,0
+1647011175679,9,AddNewOwner,200,,Thread Group 1-4,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,9,0,0
+1647011175688,21,Veterinarians ,200,,Thread Group 1-4,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,20,0,0
+1647011175709,3,ErrorPage,200,,Thread Group 1-4,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,3,0,0
+1647011176584,6,HomePage,200,,Thread Group 1-5,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,2,0,1
+1647011176584,2,HomePage-0,302,,Thread Group 1-5,,true,,110,126,1,1,http://localhost:8084/petclinic,2,0,1
+1647011176587,3,HomePage-1,200,,Thread Group 1-5,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,2,0,0
+1647011176590,5,FindOwners,200,,Thread Group 1-5,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,5,0,0
+1647011176595,63,FindOwner,200,,Thread Group 1-5,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,63,0,0
+1647011176659,25,Owner-1,200,,Thread Group 1-5,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,25,0,0
+1647011176684,11,EditOwner,200,,Thread Group 1-5,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,11,0,0
+1647011176696,16,AddNewPet,200,,Thread Group 1-5,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,16,0,0
+1647011176712,5,AddNewOwner,200,,Thread Group 1-5,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,5,0,0
+1647011176717,4,Veterinarians ,200,,Thread Group 1-5,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,4,0,0
+1647011176721,3,ErrorPage,200,,Thread Group 1-5,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,3,0,0
+1647011177581,7,HomePage,200,,Thread Group 1-6,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,2,0,1
+1647011177581,2,HomePage-0,302,,Thread Group 1-6,,true,,110,126,1,1,http://localhost:8084/petclinic,2,0,1
+1647011177583,5,HomePage-1,200,,Thread Group 1-6,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,5,0,0
+1647011177588,4,FindOwners,200,,Thread Group 1-6,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,4,0,0
+1647011177592,42,FindOwner,200,,Thread Group 1-6,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,42,0,0
+1647011177634,13,Owner-1,200,,Thread Group 1-6,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,13,0,0
+1647011177647,13,EditOwner,200,,Thread Group 1-6,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,13,0,0
+1647011177661,15,AddNewPet,200,,Thread Group 1-6,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,15,0,0
+1647011177677,4,AddNewOwner,200,,Thread Group 1-6,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,4,0,0
+1647011177681,5,Veterinarians ,200,,Thread Group 1-6,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,5,0,0
+1647011177688,3,ErrorPage,200,,Thread Group 1-6,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,3,0,0
+1647011178579,5,HomePage,200,,Thread Group 1-7,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,2,0,1
+1647011178579,2,HomePage-0,302,,Thread Group 1-7,,true,,110,126,1,1,http://localhost:8084/petclinic,2,0,1
+1647011178582,2,HomePage-1,200,,Thread Group 1-7,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,2,0,0
+1647011178585,3,FindOwners,200,,Thread Group 1-7,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,3,0,0
+1647011178588,38,FindOwner,200,,Thread Group 1-7,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,38,0,0
+1647011178626,12,Owner-1,200,,Thread Group 1-7,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,12,0,0
+1647011178638,11,EditOwner,200,,Thread Group 1-7,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,11,0,0
+1647011178650,13,AddNewPet,200,,Thread Group 1-7,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,13,0,0
+1647011178663,3,AddNewOwner,200,,Thread Group 1-7,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,3,0,0
+1647011178667,2,Veterinarians ,200,,Thread Group 1-7,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,2,0,0
+1647011178670,2,ErrorPage,200,,Thread Group 1-7,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,2,0,0
+1647011179577,5,HomePage,200,,Thread Group 1-8,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,3,0,1
+1647011179577,3,HomePage-0,302,,Thread Group 1-8,,true,,110,126,1,1,http://localhost:8084/petclinic,3,0,1
+1647011179580,2,HomePage-1,200,,Thread Group 1-8,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,2,0,0
+1647011179583,5,FindOwners,200,,Thread Group 1-8,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,5,0,0
+1647011179588,39,FindOwner,200,,Thread Group 1-8,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,39,0,0
+1647011179627,9,Owner-1,200,,Thread Group 1-8,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,9,0,0
+1647011179636,15,EditOwner,200,,Thread Group 1-8,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,15,0,0
+1647011179651,28,AddNewPet,200,,Thread Group 1-8,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,28,0,0
+1647011179680,3,AddNewOwner,200,,Thread Group 1-8,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,3,0,0
+1647011179684,3,Veterinarians ,200,,Thread Group 1-8,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,3,0,0
+1647011179687,2,ErrorPage,200,,Thread Group 1-8,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,2,0,0
+1647011180574,6,HomePage,200,,Thread Group 1-9,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,2,0,1
+1647011180574,2,HomePage-0,302,,Thread Group 1-9,,true,,110,126,1,1,http://localhost:8084/petclinic,2,0,1
+1647011180577,3,HomePage-1,200,,Thread Group 1-9,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,2,0,0
+1647011180580,2,FindOwners,200,,Thread Group 1-9,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,2,0,0
+1647011180583,42,FindOwner,200,,Thread Group 1-9,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,41,0,0
+1647011180625,24,Owner-1,200,,Thread Group 1-9,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,23,0,0
+1647011180649,21,EditOwner,200,,Thread Group 1-9,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,21,0,0
+1647011180671,21,AddNewPet,200,,Thread Group 1-9,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,21,0,0
+1647011180693,6,AddNewOwner,200,,Thread Group 1-9,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,6,0,0
+1647011180699,4,Veterinarians ,200,,Thread Group 1-9,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,4,0,0
+1647011180703,7,ErrorPage,200,,Thread Group 1-9,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,7,0,0
+1647011181576,4,HomePage,200,,Thread Group 1-10,text,true,,3904,253,1,1,http://localhost:8084/petclinic/,2,0,1
+1647011181576,2,HomePage-0,302,,Thread Group 1-10,,true,,110,126,1,1,http://localhost:8084/petclinic,2,0,1
+1647011181578,2,HomePage-1,200,,Thread Group 1-10,text,true,,3794,127,1,1,http://localhost:8084/petclinic/,2,0,0
+1647011181581,3,FindOwners,200,,Thread Group 1-10,text,true,,4410,138,1,1,http://localhost:8084/petclinic/owners/find,3,0,0
+1647011181585,77,FindOwner,200,,Thread Group 1-10,text,true,,7796,143,1,1,http://localhost:8084/petclinic/owners?lastName=,77,0,0
+1647011181663,17,Owner-1,200,,Thread Group 1-10,text,true,,5705,135,1,1,http://localhost:8084/petclinic/owners/1,17,0,0
+1647011181680,15,EditOwner,200,,Thread Group 1-10,text,true,,6063,140,1,1,http://localhost:8084/petclinic/owners/1/edit,15,0,0
+1647011181698,16,AddNewPet,200,,Thread Group 1-10,text,true,,5577,144,1,1,http://localhost:8084/petclinic/owners/1/pets/new,16,0,0
+1647011181714,3,AddNewOwner,200,,Thread Group 1-10,text,true,,5437,137,1,1,http://localhost:8084/petclinic/owners/new,3,0,0
+1647011181718,3,Veterinarians ,200,,Thread Group 1-10,text,true,,5251,131,1,1,http://localhost:8084/petclinic/vets,3,0,0
+1647011181722,3,ErrorPage,200,,Thread Group 1-10,text,true,,3790,131,1,1,http://localhost:8084/petclinic/oups,3,0,0
