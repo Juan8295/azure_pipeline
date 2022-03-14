@@ -87,7 +87,7 @@ steps:
   displayName: execute push
   inputs:
     targetType: 'inline'
-    workingDirectory: /home/azureuser/myagent/_work/2/s
+    workingDirectory: /home/azureuser/myagent/_work/2/s/
     script: |
             #git checkout test
             #git add . 
