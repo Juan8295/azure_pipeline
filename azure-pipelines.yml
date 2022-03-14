@@ -76,19 +76,19 @@ steps:
     #sonarQubeRunAnalysis: false
     #mavenPath: /usr/share/maven
 
-#- task: Bash@3
-  #displayName: execute-JMeter-test
-  #inputs:
-    #targetType: 'inline'
-    #workingDirectory: /opt/apache-jmeter-5.4.1/bin/
-    #script: |
-      #./jmeter.sh -n -t /home/azureuser/myagent/_work/2/s/test.jmx -l /home/azureuser/myagent/_work/2/s/htlm-test/testresults2.jtl
-#- task: Bash@3
-  #displayName: execute push
-  #inputs:
-    #targetType: 'inline'
-    #workingDirectory: /home/azureuser/myagent/_work/2/s
-    #script: |
+- task: Bash@3
+  displayName: execute-JMeter-test
+  inputs:
+    targetType: 'inline'
+    workingDirectory: /opt/apache-jmeter-5.4.1/bin/
+    script: |
+      ./jmeter.sh -n -t /home/azureuser/myagent/_work/2/s/test.jmx -l /home/azureuser/myagent/_work/2/s/htlm-test/testresults2.jtl
+- task: Bash@3
+  displayName: execute push
+  inputs:
+    targetType: 'inline'
+    workingDirectory: /home/azureuser/myagent/_work/2/s
+    script: |
             #git checkout test
             #git add . 
             #git commit -m "push" 
