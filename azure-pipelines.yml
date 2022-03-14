@@ -89,10 +89,10 @@ steps:
     targetType: 'inline'
     workingDirectory: /home/azureuser/myagent/_work/2/s/
     script: |
-            #git checkout test
-            #git add . 
-            #git commit -m "push" 
-            #git push git@github.com:Juan8295/azure_pipeline.git HEAD:master
+            git checkout test
+            git add . 
+            git commit -m "push" 
+            git push git@github.com:Juan8295/azure_pipeline.git HEAD:master
 
 - task: Bash@3
   displayName: Selenium-test
