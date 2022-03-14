@@ -92,7 +92,7 @@ steps:
             git checkout test
             git add . 
             git commit -m "push" 
-            git push git@github.com:Juan8295/azure_pipeline.git HEAD:master
+            git push git@github.com:Juan8295/azure_pipeline.git HEAD:azure-pipelines-test-vm
 
 - task: Bash@3
   displayName: Selenium-test
